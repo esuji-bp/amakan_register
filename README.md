@@ -20,13 +20,13 @@ Amazonの購入履歴からamakanに「読んだ」登録できるいかした�
 - install Firefox(https://www.mozilla.org/ja/firefox/new/)、もしくはseleniumで立ち上げるブラウザをお好みで設定してください
 
 ### その他準備
-- prepare Amazon Product Advertising API(https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html)
+- Amazon Product Advertising API(https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html)に登録
 - key_amazon.pyに↑のID、Keyを入力
 - amakan_register.pyにamakanのユーザーID/パスワードを入力
 - リネームしたいpdfファイル群を入れたディレクトリ
 
 
 ## run
-`$ python pdf_to_amazonurl.py path/to/pdffiles_dir`
-成功するとamazon_url_list.pickelが作成されます。
-`$ python amakan_register.py`
+- `$ python pdf_to_amazonurl.py path/to/pdffiles_dir`
+- 成功するとamazon_url_list.pickelが作成されます。
+- `$ python amakan_register.py`

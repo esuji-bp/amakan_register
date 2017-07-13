@@ -8,7 +8,6 @@ Python3系、ImageMagick、zbarのインストール、Amazon Product Advertisin
 
 このプログラムではAPIに投げた結果からAmazon上のURLのみを取得していますが、一緒に取れるタイトル、著者、出版社名を用いてpdfファイルをリネームしていくものもあります。詳しくは https://github.com/esuji5/yonkoma2data/ を参照してください。
 
-Amazonの購入履歴からamakanに「読んだ」登録できるいかしたプロダクトはこちら https://github.com/amakan/amakankan
 
 
 ## require
